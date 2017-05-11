@@ -18,7 +18,7 @@
                 <param name="android-package" value="com.zyf0330.intent.IntentPlugin" />
             </feature>
         </config-file>
-        <config-file platform="android" parent="/manifest/application" mode="merge">
+        <config-file target="AndroidManifest.xml" parent="/manifest/application" mode="merge">
             <activity android:launchMode="singleTask" />
         </config-file>
         <config-file target="AndroidManifest.xml" parent="/manifest/application">
